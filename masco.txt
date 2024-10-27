@@ -1,0 +1,20 @@
+git config --global user.email 
+git init
+git clone <repository-url>
+git status
+git add <file>
+git add .
+git commit -m "you are commited"
+git log
+git branch <branch-name>
+git checkout <branch-name>
+git checkout -b <branch-name>
+git checkout <main-branch>
+git merge <branch -name>
+git remote add origin <repository url>
+git remote -v
+git push origin  <branch-name>
+git push -u origin <branch-name>
+git pull origin  <branch-name>
+git fetch origin
+git log --online  --graph --all --decorate

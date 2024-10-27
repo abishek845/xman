@@ -1,0 +1,13 @@
+git --version
+git help config
+git config --help
+mkdir test
+cd test
+                #create a demo text document and type "hello mca"
+git init
+git status
+git add demo.txt
+git commit -m "demo.txt"
+git config user.name <username>
+git remote add origin <link>
+git push origin master
